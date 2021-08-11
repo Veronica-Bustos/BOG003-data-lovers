@@ -1,0 +1,84 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #000000;
+  background-image: url("assets/fondo1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.encabezado {
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+  max-width: 90%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+}
+
+.portal {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dibujo {
+  width: 100%;
+  height: 90%;
+  background-image: url("assets/portal.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.dibujo > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.portal-img {
+  width: 100%;
+}
+
+.link-portal {
+  text-decoration: none;
+  color: white;
+  font-size: 20pt;
+  /* background-color: rgba(255, 145, 0, 0.383); */
+}
+
+/* estilo que se aplica cuando pasa el mouse por encima */
+.link-portal:hover {
+  color: rgb(234, 255, 47);
+}

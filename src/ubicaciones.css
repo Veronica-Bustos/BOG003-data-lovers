@@ -1,0 +1,33 @@
+html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #000000;
+    background-image: url("assets/fondo1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+  .contenedor {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .encabezado {
+    text-align: center;
+  }
+  
+  .logo {
+    width: 300px;
+    max-width: 90%;
+  }
+  

@@ -1,0 +1,90 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #000000;
+  background-image: url("assets/fondo1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  font-family: "Indie Flower", cursive;
+}
+.contenedor {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.encabezado {
+  text-align: center;
+}
+
+.logo {
+  width: 220px;
+  max-width: 90%;
+}
+
+.subtitulo {
+  color: rgb(255, 157, 0);
+  text-align: left;
+  font-family: 200px;
+  margin-left: 15px;
+}
+
+.barra {
+  color: rgb(255, 157, 0);
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.filtro {
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 70px;
+  font-size: 20pt;
+}
+
+select {
+  background-color: black;
+  /* line-height: 20px; */
+  font-size: 16pt;
+  border: 1px white solid;
+  border-radius: 15px;
+  color: white;
+  border: 3px #81ff68 solid;
+}
+button {
+  background-color: rgb(0 97 110);
+  color: #81ff68;
+  font-family: "Indie Flower", cursive;
+  border-radius: 15px;
+  font-size: 16pt;
+  border: 3px #81ff68 solid;
+}
+
+input {
+  background-color: black;
+  color: white;
+  font-size: 16pt;
+  border: 3px #81ff68 solid;
+  border-radius: 15px;
+}
+
+.subtitulo{
+    font-size: 20pt;
+}
