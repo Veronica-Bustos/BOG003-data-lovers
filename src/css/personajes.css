@@ -10,7 +10,7 @@ body {
   width: 100vw;
   overflow: hidden;
   background: #000000;
-  background-image: url("assets/fondo1.png");
+  background-image: url("../assets/fondo1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -26,8 +26,15 @@ body {
 
 .encabezado {
   text-align: center;
-}
 
+}
+.seccion-enabezado{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
 .logo {
   width: 220px;
   max-width: 90%;
@@ -57,7 +64,7 @@ body {
   text-align: right;
   box-sizing: border-box;
   width: 70px;
-  font-size: 28pt;
+  font-size: 20pt;
   font-family: "Indie Flower", cursive;
 }
 
@@ -95,7 +102,13 @@ main {
   background-color: rgba(242, 255, 0, 0.527);
   width: 100%;
   height: 50%;
+  text-align: center;
 }
+.tarjeta > .foto > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 
 .tarjeta > .bio {
   overflow-y: auto;

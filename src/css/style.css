@@ -10,7 +10,7 @@ body {
   width: 100vw;
   overflow: hidden;
   background: #000000;
-  background-image: url("assets/fondo1.png");
+  background-image: url("../assets/fondo1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -52,7 +52,7 @@ main {
 .dibujo {
   width: 100%;
   height: 90%;
-  background-image: url("assets/portal.png");
+  background-image: url("../assets/portal.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

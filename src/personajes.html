@@ -1,59 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="personajes.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="contenedor">
-      <header class="encabezado">
-        <div>
-          <img class="logo" src="assets/logo.png" alt="" />
-        </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/personajes.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="contenedor">
+            <header class="encabezado">
+                <div class="seccion-enabezado">
+                    <img class="logo" src="assets/logo.png" alt="" />
+                    <label class="subtitulo">PERSONAJES</label>
+                </div>
 
-        <div class="barra">
-          <label class="subtitulo">PERSONAJES</label>
-          <div class="controles">
-            <label class="filtro">Ordenar por:</label>
-            <select name="" id="">
-              <option value="">Asendente</option>
-              <option value="">Desendente</option>
-              <option value="">Edad(menor a mayor)</option>
-              <option value="">Estado</option>
-            </select>
-          </div>
-        </div>
-      </header>
+                <div class="barra">
+                    <div>
+                        <label class="filtro">Filtrar por:</label>
+                        <select name="" id="filtro">
+                            <option value="">Selecciona...</option>
+                            <option value="Male">Hombre</option>
+                            <option value="Female">Mujer</option>
+                        </select>
+                    </div>
 
-      <main>
-        <div class="tarjeta">
-          <div class="foto"></div>
-          <div class="bio">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              dolores explicabo excepturi voluptatibus recusandae?
-            </p>
-          </div>
+                    <div>
+                        <label class="filtro">Ordenar por:</label>
+                        <select name="" id="ordenar">
+                            <option value="">Selecciona...</option>
+                            <option value="a-z">Nombre ascendente</option>
+                            <option value="z-a">Nombre descendente</option>
+                        </select>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <!-- 
+                <div class="tarjeta">
+                    <div class="foto">
+                        <img src="assets/personaje_small.png" alt="" />
+                    </div>
+                    <div class="bio">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eligendi dolores explicabo excepturi
+                            voluptatibus recusandae?
+                        </p>
+                    </div>
+                </div> -->
+            </main>
         </div>
-        <div class="tarjeta"></div>
-        <div class="tarjeta"></div>
-        <div class="tarjeta"></div>
-        <div class="tarjeta"></div>
-        <div class="tarjeta"></div>
-        <div class="tarjeta"></div>
-        <div class="tarjeta"></div>
-        <div class="tarjeta"></div>
-        <div class="tarjeta"></div>
-      </main>
-    </div>
-  </body>
+        <script src="main.js" type="module"></script>
+    </body>
 </html>
