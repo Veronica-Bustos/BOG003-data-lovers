@@ -1,33 +1,103 @@
 html {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    background: #000000;
-    background-image: url("assets/fondo1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: bottom;
-  }
-  .contenedor {
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-  }
-  
-  .encabezado {
-    text-align: center;
-  }
-  
-  .logo {
-    width: 300px;
-    max-width: 90%;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #000000;
+  background-image: url("assets/fondo1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  font-family: "Indie Flower", cursive;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.encabezado {
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+  max-width: 90%;
+}
+
+.subtitulo {
+  color: rgb(255, 157, 0);
+  text-align: left;
+  font-family: 200px;
+  margin-left: 15px;
+}
+
+.barra {
+  color: rgb(255, 157, 0);
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 18px;
+  padding-right: 25px;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.filtro {
+  text-align: right;
+  box-sizing: border-box;
+  width: 70px;
+  font-size: 28pt;
+  font-family: "Indie Flower", cursive;
+}
+
+select {
+  background-color: black;
+  /* line-height: 20px; */
+  font-size: 16pt;
+  border: 1px white solid;
+  border-radius: 15px;
+  color: white;
+  border: 3px #81ff68 solid;
+}
+
+.subtitulo {
+  font-size: 30pt;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+.tarjeta {
+  width: 200px;
+  height: 300px;
+  background-color: rgba(128, 255, 0, 0.527);
+  border: 1px #0ae2f1f6 solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+.tarjeta > .foto {
+  background-color: rgba(242, 255, 0, 0.527);
+  width: 100%;
+  height: 50%;
+}
+
+.tarjeta > .bio {
+  overflow-y: auto;
+  max-height: 50%;
+}

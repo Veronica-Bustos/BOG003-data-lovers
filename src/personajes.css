@@ -17,6 +17,7 @@ body {
   background-position-y: bottom;
   font-family: "Indie Flower", cursive;
 }
+
 .contenedor {
   width: 100%;
   height: 100%;
@@ -51,12 +52,13 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .filtro {
   text-align: right;
-  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   width: 70px;
-  font-size: 20pt;
+  font-size: 28pt;
+  font-family: "Indie Flower", cursive;
 }
 
 select {
@@ -68,23 +70,34 @@ select {
   color: white;
   border: 3px #81ff68 solid;
 }
-button {
-  background-color: rgb(0 97 110);
-  color: #81ff68;
-  font-family: "Indie Flower", cursive;
-  border-radius: 15px;
-  font-size: 16pt;
-  border: 3px #81ff68 solid;
+
+.subtitulo {
+  font-size: 30pt;
 }
 
-input {
-  background-color: black;
-  color: white;
-  font-size: 16pt;
-  border: 3px #81ff68 solid;
-  border-radius: 15px;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: space-around;
 }
 
-.subtitulo{
-    font-size: 20pt;
+.tarjeta {
+  width: 200px;
+  height: 300px;
+  background-color: rgba(128, 255, 0, 0.527);
+  border: 1px #0ae2f1f6 solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+.tarjeta > .foto {
+  background-color: rgba(242, 255, 0, 0.527);
+  width: 100%;
+  height: 50%;
+}
+
+.tarjeta > .bio {
+  overflow-y: auto;
+  max-height: 50%;
 }
