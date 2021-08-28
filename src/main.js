@@ -1,4 +1,4 @@
-import { example } from "./data.js";
+import { filtrar,ordenar} from "./data.js";
 // importar la data de rick and morty
 import data from "./data/rickandmorty/rickandmorty.js";
 
@@ -79,14 +79,15 @@ const crearTarjeta = (personaje) => {
 // llamar a la funcion mostrarPersonajes y pasarle la data
 mostrarPersonajes(data.results);
 
-// filtra en base al genero de la data con sus personajes
-const filtrar = (personajes, genero) => {
+// filtra en base al genero de la data con sus personajes DATA.JS CAMBIAR 
+/*//const filtrar = (personajes, genero) => {
     let dataFiltrada = personajes.filter((personaje) => {
         return personaje.gender == genero;
     });
     // Me devuelve los datos filtrados
     return dataFiltrada;
 };
+*/
 
 // Selecciona el selec filtro del html
 let select_filtro = document.querySelector("#filtro");
@@ -100,14 +101,14 @@ select_filtro.addEventListener("change", () => {
     // Se muetsra la data filtrada
     mostrarPersonajes(resultado);
 });
-
-let ordenar = (personajes, orden) => {
+//DATA.JS
+/*let ordenar = (personajes, orden) => {
     return personajes.sort(function (personajeA, personajeB) {
         if (orden == "a-z") {
             if (personajeA.name > personajeB.name) {
                 return 1;
             }
-    
+
             if (personajeA.name < personajeB.name) {
                 return -1;
             }
@@ -117,21 +118,21 @@ let ordenar = (personajes, orden) => {
             if (personajeA.name > personajeB.name) {
                 return -1;
             }
-    
+
             if (personajeA.name < personajeB.name) {
                 return 1;
             }
         }
-        
 
         return 0;
     });
 };
+*/
 
 let select_ordenar = document.querySelector("#ordenar");
 
 select_ordenar.addEventListener("change", function () {
-    let ornden = select_ordenar.value;
-    let resultado_ordenado = ordenar(data.results, ornden);
+    let orden = select_ordenar.value;
+    let resultado_ordenado = ordenar(data.results, orden);
     mostrarPersonajes(resultado_ordenado);
 });
