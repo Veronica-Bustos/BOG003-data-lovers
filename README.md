@@ -2,9 +2,61 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [1. Preámbulo]
+Este trabajo se realizo con la finaliadad de dar un espacio para los internautas de rick and morty y los nuevos (curiosos), de edades entre 13 años a 50 años, para la interaccion con la pagina, alli se verean dos vistas inicialmente, donde se encontraran datos como personajes y el estado de cada uno de estos.
+Para la construccion de esta pagina se realizo una encuesta sobre que le gustaria al ususario ver en la pagina en cuanto a  color, letra, diseño y demas,con un muestreo de 100 perosnas,el primer mockups se hizo en balsamiq el cual fue cambiando, segun la construccion de cada historia de usuario, con los aportes del grupo de trabajo y los objetivos de aprendizaje.
+
+* [2. Resumen del proyecto]
+En este proyecto se manejaron inicialmente 5 (sprint)- historias de ususario, para cada una se establecio un tiempo de una semana, de acuerdo a las necisades y objetivos de aprendizaje, como era filtar, reduce, sord, testing.asignado minitareas para cada funsion cumpliendo con el desarrollo de estas.
+
+IMAGEN---------------------------
+
+
+
+
+
+
+
+En la tercera semana 
+
+ 
+* [3. Objetivos de aprendizaje]
+Diseño de la Interfaz de Usuario
+
+Propotipo de baja fidelidad:
+En la primera semana se aplica el primer sprint,se desarrolla la encuesta para recoleccion de datos para el diseño de la interfaz, la creacion del HTML y el estilo en CSS,para las vistas que son dos la inical y la siguienete que es la de los personajes donde se llama la data de rick and morty. primer diseño de mockups- papel y lapiz.
+
+IMAGEN---------------------
+
+Prototipo de alta fidelidad:
+
+Gracias a los aportes de las compañeras,de los feedback de coach, de los usurios y de los datos de la encuesta,se mejoro el diseño de la interfaz en las dos vistas finales, ( la vista de inico-vista personajes).resultados encuesta.
+
+IMAGEN------------------
+
+Historias de Usuario:
+
+ Se plantearon 5 historias de ususario para desarrollar en 4 semanas.
+
+ En la segunda semana se trabaja con el segundo sprint,que era aprender el uso del primer parametro filtrar utilizando la data de rick and morty,esta funcion cumple con la tarea de mostarle a los ususaios la opcion de filtar la vista entre hombre y mujer.
+
+ imagen del sprint- filtro.---------------------
+
+ en la tercera historia de ususario se aplico SORT para el calculo de forma ascedente y descendente de los personajes de la (A-Z Y Z-A), este objetivo se logro con ayuda de videos, de las ayudantias por parte de laboratoria.
+
+ IMAGEN-----------------
+
+ En la semana 4 se aplican dos objetivos que es aprender TESTING y REDUCE,el primero se utiliza para validar el llamado de las funciones ateriormente utilizadas como (FILTRAR-SORT-REDUCE ) con ciertos parametros a ejecutar utlizando la data de rick and morty.El segundo objetivo se utiliza para el conteo de los persionajes en su Status vivo y muerto, devolviendo cuantos hay de cada uno.(se cumplen gracias a la ayudantia y videos, explicacion de las compañeras).
+
+ Imagen--------------------
+ 
+
+
+
+
+
+pantallas de usuario al final.
+imagen del testing - producto final
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
@@ -88,7 +140,7 @@ usuario necesita.
 ## 3. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
-
+diseño.alta fidelidad,baja fidelidad.describir paso a paso mi creacion.
 ### HTML
 
 - [ ] **Uso de HTML semántico**

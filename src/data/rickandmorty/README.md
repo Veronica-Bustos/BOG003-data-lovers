@@ -3,7 +3,7 @@
 Rick y Morty es una serie de televisión estadounidense de animación para
 adultos. La serie tiene gran acogida a nivel mundial, de todo este fandom hay
 un grupo que desea poder interactuar y ver la información de los personajes y
-de la serie en general.
+de la serie en general.problematica usuario (resumen)preanvulo
 
 ## Hallazgos
 
@@ -16,9 +16,10 @@ de origen, imagen y episodios donde aparece.
 Adicionalmente a esta información, para nuestros usuarios es importante poder
 ver la lista de personajes que aparecen en la serie, la cantidad de
 episodios, los diferentes lugares de origen, para tener mayor información de la
-serie.
+serie.(encuesta.) y que hace)
 
 ## Detalles de la data
+(funciones)
 
 * Con este set de datos puedes obtener los siguientes datos de un personaje:
 
