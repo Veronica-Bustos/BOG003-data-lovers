@@ -31,3 +31,15 @@ export const ordenar = (personajes, orden) => {
         return 0;
     });
 };
+
+export const contarStatus = (personajes, status) => {
+    let resultado = personajes.reduce((sumatoria, personaje) => {
+        if (personaje.status == status) {
+            return sumatoria + 1;
+        } else {
+            return sumatoria;
+        }
+    }, 0);
+
+    return resultado;
+};

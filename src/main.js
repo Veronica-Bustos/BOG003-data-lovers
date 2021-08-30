@@ -1,6 +1,12 @@
-import { filtrar,ordenar} from "./data.js";
+import { filtrar, ordenar, contarStatus } from "./data.js";
 // importar la data de rick and morty
 import data from "./data/rickandmorty/rickandmorty.js";
+
+const labelVivos = document.querySelector("#vivos");
+const labelMuertos = document.querySelector("#muertos");
+
+labelVivos.innerText = "Vivos: " + contarStatus(data.results, "Alive");
+labelMuertos.innerText = "Muertos: " + contarStatus(data.results, "Dead");
 
 // Funcion que limpia el main y despues agrega las tarjetas de los personajes
 // Recibe: arreglo de objetos con personajes
@@ -79,7 +85,7 @@ const crearTarjeta = (personaje) => {
 // llamar a la funcion mostrarPersonajes y pasarle la data
 mostrarPersonajes(data.results);
 
-// filtra en base al genero de la data con sus personajes DATA.JS CAMBIAR 
+// filtra en base al genero de la data con sus personajes DATA.JS CAMBIAR
 /*//const filtrar = (personajes, genero) => {
     let dataFiltrada = personajes.filter((personaje) => {
         return personaje.gender == genero;
